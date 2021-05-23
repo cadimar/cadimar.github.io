@@ -61,6 +61,8 @@ header .logo span {
 header .nav {
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 header .nav li {
@@ -69,17 +71,17 @@ header .nav li {
 
 header .nav a {
   color: #111;
-  font-weight: 600;
-  font-size: 3rem
+  font-size: 1.4rem
 }
 
 header .btn {
   background: #fff;
   color: #ff0157 !important;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 2px;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
+  font-size: 1rem !important;
 }
 
 .banner {
